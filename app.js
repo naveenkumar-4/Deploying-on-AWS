@@ -6,5 +6,5 @@ const app = express();
 app.get("/", (req, res) => {
   res.send("Hurray! I have successfully deployed this application on AWS.");
 });
-
-export default app; 
+ 
+export default app;
